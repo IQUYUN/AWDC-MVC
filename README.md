@@ -48,7 +48,7 @@ python train.py --dataset Prokaryotic
 
 - `--dataset`: The dataset to use (e.g., `Cifar100`, `Prokaryotic`, `CCV`). Default is `Cifar100`.
 - `--batch_size`: Input batch size for training (default: 256).
-- `--learning_rate`: Learning rate (default: 0.0001).
+- `--learning_rate`: Learning rate (default: 0.0003).
 - `--pre_epochs`: Number of epochs for pre-training (auto-encoder).
 - `--con_epochs`: Number of epochs for contrastive learning / main training.
 - `--feature_dim`: Dimension of the latent feature representation.
@@ -70,3 +70,4 @@ If you use this code for your research, please cite our paper:
 ```
 [Please insert your citation here]
 ```
+
