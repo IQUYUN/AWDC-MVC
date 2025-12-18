@@ -1,6 +1,7 @@
 # AWDC-MVC
 
-This repository contains the source code for **AWDC-MVC** (Adaptive Weight Dynamic Consistency for Multi-View Clustering/Classification).
+This repository contains the source code for **AWDC-MVC** (Adaptive Weighting-guided Dual-level Contrastive Learning for
+Multi-view Clustering).
 
 ## Requirements
 
@@ -70,4 +71,5 @@ If you use this code for your research, please cite our paper:
 ```
 [Please insert your citation here]
 ```
+
 
