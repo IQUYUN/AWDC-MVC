@@ -66,19 +66,21 @@ python train.py --dataset Prokaryotic
 
 ## Citation
 ```
-@article{WANG2025115231,
-title = {Adaptive Weighting-guided Dual-level Contrastive Learning for Multi-view Clustering},
+@article{WANG2026115231,
+title = {Adaptive weighting-guided dual-level contrastive learning for multi-view clustering},
 journal = {Knowledge-Based Systems},
+volume = {335},
 pages = {115231},
-year = {2025},
+year = {2026},
 issn = {0950-7051},
 doi = {https://doi.org/10.1016/j.knosys.2025.115231},
 url = {https://www.sciencedirect.com/science/article/pii/S0950705125022658},
 author = {Shuangyang Wang and Lihua Zhou and Bing Kong},
-keywords = {multi-view clustering, transformer, contrastive learning, view fusion, adaptive weighting},
+keywords = {Multi-view clustering, Transformer, Contrastive learning, View fusion, Adaptive weighting},
 abstract = {Multi-view clustering has demonstrated great promise by leveraging complementary and consistent information across views. However, two critical challenges hinder its applicability in real-world scenarios: (1) how to effectively integrate consistent and complementary information from diverse view spaces while reducing interference from low-quality or noisy views and (2) how to mitigate high-quality semantic labels or features being forced to align with low-quality ones derived from unreliable views in achieving maximal cross-view consistency. To address these challenges, we propose a novel framework, Adaptive Weighting-guided Dual-level Contrastive Learning for Multi-view Clustering (AWDC-MVC). Our framework first introduces a Transformer-based adaptive fusion module. This module leverages its multi-head self-attention mechanism to intrinsically filter noise and up-weight informative views. This process produces not only a high-quality global consensus representation but also, more crucially, the dynamic importance weights for each view. Subsequently, these adaptive weights are used to guide a dual-level contrastive learning: i) at the feature level, each view-consensus representation is aligned with the global consensus representation and ii) at the decision level, the semantic labels from individual views are aligned with their counterparts derived from the global consensus representation. This entire process forms a powerful synergistic loop, where the adaptive weights provide quality-aware guidance for the two alignment levels, while the dual-level alignment provides rich, hierarchical supervision to refine the fusion process. Extensive experiments on multiple benchmark datasets demonstrate the superiority and effectiveness of our proposed AWDC-MVC framework.}
 }
 ```
+
 
 
 
